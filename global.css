@@ -1,0 +1,54 @@
+body {
+    background-color: #121212;
+}
+
+.image-container {
+    background-color: #3c3c3c;
+    padding: 6px;
+    border-radius: 50px;
+    width: 26px;
+    height: 26px;
+    margin-left: 400px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    place-content: center;
+    text-align: center;
+    flex-direction: row-reverse;
+    filter: invert(100%);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#home {
+    width: 25px;
+    height: 25px;
+}
+
+#search {
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #3c3c3c;
+    align-content: center;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.search_icon {
+    width: 25px;
+    height: 25px;
+}
+
