@@ -15,15 +15,19 @@
     </head>
 
     <body>
-        <!-- TOP PAGE -->
+
+        <!-- START OF NAV -->
+
         <nav>
-            <img class="icon" src="./Images/logos/spotify-logo.png">
+            <a href="./">
+                <img class="icon" src="./Images/logos/spotify-logo.png">
+            </a>
             <div class="image-container">
                 <img id="home" class="invert" src="./Images/Icons/home-icon.png">
             </div>
             <div id="search">
                 <img class="search_icon invert" src="./Images/Icons/search-icon.png">
-                <p id ="search_text">What do you want to play?</p>
+                <input id ="search_text" placeholder="What do you want to play?">
                 <p class="seperater">|</p>
                 <img class="invert basket" src="./Images/Icons/laundry-basket-icon.png">
             </div>
@@ -36,16 +40,53 @@
                 <div id="download-circle">
                     <img id="right-nav-download" src="./Images/Icons/download-icon.png">
                 </div>
-                <div>
+                <div id="right-nav">
                     <h3 class="right-text">Install App</h3>
+                    <h3 class="right-text">Sign Up</h3>
+                </div>
+                <div id="log-in-bg">
+                    <h3 id="log-in-text">Log in</h3>
                 </div>
             </div>
             </div> 
         </nav>
-        <div id="boxes">           
-            <div id="left-box"></div>
-            <div id="body-box"></div>
-        </div>
-        <div id="gradient-box"></div>
+
+        <!-- END OF NAV -->
+
+        <!-- START OF MAIN -->
+
+        <main id="boxes">  
+            
+            <!-- START OF ASIDE -->
+
+            <aside id="left-box">
+
+            </aside>
+
+            <!-- END OF ASIDE -->
+
+            <!-- START OF SECTION -->
+
+            <section id="body-box">
+
+            </section>
+
+            <!-- END OF SECTION -->
+
+        </main>
+
+        <!-- END OF MAIN -->
+
+        <!-- START OF FOOTER -->
+
+        <footer>
+            <div id="gradient-box">
+                <h4 class="footer-text-one">Preview of Spotify</h4>
+                <p class="footer-text-two">Sign up to get songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+        </footer>
+
+        <!-- END OF FOOTER -->
+
     </body>
 </html>
