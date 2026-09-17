@@ -1,5 +1,6 @@
 body {
     background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* START OF NAV BAR */
@@ -20,6 +21,11 @@ body {
     width: 26px;
     height: 26px;
     margin-left: 300px;
+}
+
+.image-container:hover {
+    background-color: #444444;
+    transition: 0.3s ease-in-out;
 }
 
 #home {
@@ -49,18 +55,22 @@ nav {
     padding: 0px 7px;
 }
 
-.search_icon {
+#search:hover {
+    background-color: #444444;
+    transition: 0.3s ease-in-out;
+}
+
+.search-icon {
     width: 25px;
     height: 25px;
 }
 
-#search_text {
+#search-text {
     margin-right: 165px;
     color: rgba(255, 255, 255, 0.65);
     font-weight: 300;
     font-size: 14px;
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
     background: transparent;
     border: none;
     outline: none;
@@ -78,15 +88,49 @@ nav {
 
 .right-text {
     color: rgba(255, 255, 255, 0.75);
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 12px;
     font-size: small;
     margin-left: 15px;
 }
 
+.premium {
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 12px;
+    font-size: small;
+    margin-left: 15px;
+}
+
+.premium:hover {
+    color: white;
+}
+
+.support {
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 12px;
+    font-size: small;
+    margin-left: 15px;
+}
+
+.support:hover {
+    color: white;
+}
+
+.download {
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 12px;
+    font-size: small;
+    margin-left: 15px;
+}
+
+.download:hover {
+    color: white;
+}
+
 .divider {
+    color: rgba(255, 255, 255, 0.75);
     font-size: large;
     margin-top: 8px;
+    margin-left: 10px;
 }
 
 #right-side {
@@ -126,7 +170,6 @@ nav {
 
 #log-in-text {
     color: #121212;
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 12px;
     font-size: small;
     margin-left: 7px;
@@ -154,7 +197,75 @@ nav {
     width: 325px;
 }
 
+#top-aside {
+    display: flex;
+}
 
+.library-text {
+    color: white;
+    font-size: large;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.add-icon {
+    height: 20px;
+    width: 20px;
+    filter: invert(65%);
+    align-self: center;
+    margin-top: -5px;
+    margin-left: 180px;
+}
+
+#playlist-box {
+    padding-left: 15px;
+    color: white;
+    background-color: #343434;
+    margin: 5px;
+    border-radius: 5px;
+    height: 125px;
+    margin-top: 20px;
+}
+
+#create-playlist-box {
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    height: 25px;
+    width: 100px;
+    justify-items: center;
+}
+
+#create-playlist-box:hover {
+    background: rgb(240, 240, 240);
+}
+
+#podcast-box {
+    padding-left: 15px;
+    color: white;
+    background-color: #343434;
+    margin: 5px;
+    border-radius: 5px;
+    height: 125px;
+    margin-top: 20px;
+}
+
+#browse-playlist-box {
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    height: 25px;
+    width: 120px;
+    justify-items: center;
+}
+
+#browse-playlist-box:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.browse-podcasts {
+    justify-self: center;
+}
 
 /* END OF ASIDE */
 
@@ -178,22 +289,22 @@ nav {
 /* START OF FOOTER */
 
 #gradient-box {
-    background: linear-gradient(90deg,rgba(238, 82, 255, 1) 0%, rgba(87, 117, 199, 1) 50%, rgba(87, 185, 255, 1) 100%);
+    background: linear-gradient(90deg,rgb(239, 92, 255) 0%, rgba(87, 117, 199, 1) 50%, rgba(87, 185, 255, 1) 100%);
     height: 60px;
     padding-left: 20px;
-    margin-top: -15px;
+    margin-top: 18px;
+    align-content: center;
 }
 
 .footer-text-one {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .footer-text-two {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 3px;
 }
-
-
 
 /* END OF FOOTER */
