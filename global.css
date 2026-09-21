@@ -263,8 +263,13 @@ nav {
     background-color: rgb(240, 240, 240);
 }
 
-.browse-podcasts {
-    justify-self: center;
+#aside-laws {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.7dvh;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 20px;
 }
 
 /* END OF ASIDE */
@@ -281,6 +286,56 @@ nav {
     margin-left: 5px;
 }
 
+#body-text {
+    color: white;
+    font-size: x-large;
+    font: bolder;
+    margin: 20px;
+}
+
+#row-1-albums {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#row-2-albums {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.album-name {
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.85);
+    font: bold;
+}
+
+.album-artist {
+    font-size: small;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+#album-bg {
+    background-color: rgba(115, 115, 115, 0);
+    padding: 5px;
+    width: 120px;
+    height: 230px;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+#album-bg:hover {
+    background-color: rgba(115, 115, 115, 0.4);
+    transition: 0.3s ease-in-out;
+}
+
+.album-photo {
+    width: 95px;
+    height: 95px;
+    border-radius: 5px;
+}
+
 
 /* END OF SECTION */
 
@@ -290,10 +345,17 @@ nav {
 
 #gradient-box {
     background: linear-gradient(90deg,rgb(239, 92, 255) 0%, rgba(87, 117, 199, 1) 50%, rgba(87, 185, 255, 1) 100%);
-    height: 60px;
-    padding-left: 20px;
     margin-top: 18px;
     align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer-text-one {
@@ -305,6 +367,18 @@ nav {
     color: white;
     margin: 0;
     margin-top: 3px;
+}
+
+
+.sign-up-grad {
+    color: black;
+    padding: 4px 8px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.sign-up-grad:hover {
+    background-color: rgb(240, 240, 240);
 }
 
 /* END OF FOOTER */
