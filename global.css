@@ -158,6 +158,14 @@ nav {
     display: flex;
 }
 
+.install:hover {
+    color: white;
+}
+
+.sign:hover {
+    color: white;
+}
+
 #log-in-bg {
     background-color: white;
     height: 40px;
@@ -263,13 +271,107 @@ nav {
     background-color: rgb(240, 240, 240);
 }
 
+#law-aside {
+    filter: invert(0%);
+}
+
+#privacy-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 #aside-laws {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.7dvh;
-    color: rgba(255, 255, 255, 0.85);
-    margin: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 15px;
+    margin-right: 45px;
+    margin-bottom: 8px;
+    justify-content: left;
+    place-content: space-evenly;
+}
+
+#legal:hover {
+    color: white;
+}
+
+#safety:hover {
+    color: white;
+}
+
+#priv-policy:hover {
+    color: white;
+}
+
+#cookies:hover {
+    color: white;
+}
+
+#ads:hover {
+    color: white;
+}
+
+#accessibility:hover {
+    color: white;
+}
+
+#notice:hover {
+    color: white;
+}
+
+.privacy {
+    background-color: #1ABC54;
+    width: 110px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+#check-box {
+    height: 35px;
+    width: 35px;
+    margin-left: -45px;
+}
+
+#aside-laws-two {
+    color: white;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#lang-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border:solid 1px rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+    height: 35px;
+    width: 100px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+#lang-box:hover {
+    border-color: white;
+}
+
+.world-icon {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    filter: invert(100%);
+}
+
+.language {
+    color: white;
+    font-size: medium;
+    font: bolder;
 }
 
 /* END OF ASIDE */
