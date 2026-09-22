@@ -395,34 +395,29 @@ nav {
     margin: 20px;
 }
 
-#row-1-albums {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#row-2-albums {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.gridMe {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
 }
 
 .album-name {
     font-size: medium;
     color: rgba(255, 255, 255, 0.85);
     font: bold;
+    margin: 0px;
 }
 
 .album-artist {
     font-size: small;
     color: rgba(255, 255, 255, 0.85);
+    margin: 0px;
 }
 
 #album-bg {
     background-color: rgba(115, 115, 115, 0);
     padding: 5px;
-    width: 120px;
-    height: 230px;
+    width: 115px;
+    height: 225px;
     border-radius: 5px;
     /* text-align: center; */
 }
